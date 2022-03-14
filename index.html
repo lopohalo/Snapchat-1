@@ -12,16 +12,23 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid bg-white flex-row-reverse">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="    border: none;
+            width: 200;
+            margin-right: -710px;
+            padding: 0 703px 6px;
+            border-bottom: 1px solid rgb(224, 219, 219);">
+                <span class="navbar-toggler-icon bg-white"></span>
             </button>
             <div class="d-none d-xl-block">
             <img class="img-gosth" class="img-fluid" src="img/ghost.svg" style="background:transparent;height:64px;">
             </div>
             <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-white" style="margin-left: 280px;margin-top: -9px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-white " style="margin-left: 280px;margin-top: -9px;">
+                    <li class="nav-item nav-item-inicio">
+                        <a class="nav-link glovalnav-home-link"  style="color: rgb(38, 38, 38);" aria-current="page">Inicio</a>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="border-bottom: 2px solid rgb(38, 38, 38);" style="color: rgb(38, 38, 38);" aria-current="page" href="https://www.snapchat.com/l/es/download">Descargar</a>
+                        <a class="nav-link nav-link-descargar" style="color: rgb(38, 38, 38)" aria-current="page" href="https://www.snapchat.com/l/es/download">Descargar</a>
                     </li>
                 <li class="nav-item">
                     <a class="nav-link" style="color: rgb(38, 38, 38);" aria-current="page" href="https://story.snapchat.com/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYc3BrZmp5dGNyAX9SYH6HAX9SYH46AAAAAA" >Spotlight</a>
@@ -60,6 +67,43 @@
                 </div>
             </div>
             </nav>
+            <div class="container d-flex justify-content-center align-items-center">
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <video  class="video" autoplay muted loop src="https://storage.googleapis.com/snapchat-web/download/download-phone.mp4" class="state-ready"></video>
+                        </div>
+                        <div style="margin-top: 186px;margin-left: 3px;">
+                            <h1 class="headline">Probar Snapchat</h1>
+                            <div class="sms-fields">
+                                <h3 class="sub-headline">Envía el enlace de descarga a tu teléfono</h3>
+                                <div class="input-field">
+                                    <select class="country-select">
+                                        <option value="AU">AU +61</option>
+                                        <option value="BR">BR +55</option>
+                                        <option value="GB">GB +44</option>
+                                        <option value="IN">IN +91</option>
+                                        <option value="MX">MX +52</option>
+                                        <option value="US" selected="selected">US +1</option>
+                                    </select>
+                                    <input class="phone-input" type="tel" placeholder="Número de teléfono">
+                                    <button class="send-button" type="button">
+                                        Enviar enlace
+                                    </button>
+                                    <div class="full-disclosure">Al hacer clic en "Enviar enlace", declaro que leí la <a href="https://www.snap.com/en-US/privacy/privacy-policy/">Política de privacidad</a> y <br>que acepto las <a href="https://snap.com/terms/">Condiciones de servicio</a></div>
+                                </div>
+                                <div class="full-disclosure">Puede haber cargos por datos y mensajes.</div>
+                                <ul class="stores d-flex">
+                                    <li class="store google">
+                                        <a data-vendor="google" class="action"  href="https://play.google.com/store/apps/details?id=com.snapchat.android&hl=en">tienda pd google</a>
+                                    </li>
+                                    <li class="store apple">
+                                        <a data-vendor="apple" class="action" href="https://apps.apple.com/us/app/snapchat/id447188370">tienda pd apple</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
 </header>
     <script src="js/bootstrap.min.js"></script>
 </body>

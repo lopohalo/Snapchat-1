@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Rubik:wght@600&display=swap');
 *{
     background-color: yellow;
 }
@@ -10,6 +11,9 @@
     left: 2px;
     margin-top: -11px;
     height: 34px;
+}
+.nav-link-descargar{
+    border-bottom: 2px solid rgb(38, 38, 38);
 }
 
 .nav-link{
@@ -46,4 +50,225 @@
     overflow: hidden;
 }
 }
+@media (max-width: 1070px){
+.navbar-collapse .nav-item .nav-link{
+    display: block;
+    line-height: 24px;
+    height: 49px;
+    width: 101%;
+    padding-right: 21px;
+    padding-top: 13px;
+    border-bottom: 1px solid #F8F9FB;
+    visibility: visible;
+}
+}
+@media (max-width: 1070px){
+.navbar-collapse .nav-item, .globalnav-container .nav-item{
+    display: block;
+    padding-top: 2px;
+    text-align: right;
+    background-color: white;
+    margin-right: -7px;
+    height: 51px;
+    width: 1000px;
+}
+}
 
+@media (max-width: 1070px){
+    .nav-link:hover{
+        background-color: #e5eaf0;
+        border-bottom: 1px solid #e5eaf0;
+    }
+    .navbar-collapse  {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .navbar-nav{
+        display: block;
+        width: 58%;
+        height: 604px;
+    
+    }
+    .nav-link-descargar{
+        border-bottom: 1px solid #dee2e6;
+    }
+    .glovalnav-home-link {
+        visibility: visible;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+} 
+
+.navbar-light .navbar-toggler-icon:active{
+    background-image: url(img/letra-x.png);
+    font-size: 12px;
+    height: 30px;
+    margin-right: 10px;
+}
+    
+
+.glovalnav-home-link {
+    position: relative;
+    color: rgb(38, 38, 38);
+    visibility: hidden;
+}
+
+.nav-item-inicio{
+    background: white;
+    margin-right: -37px;
+}
+
+.video {
+    margin-top: 135px;
+    height: 555px;
+    margin-left: 65px;
+    margin-right: 44px;
+    border-radius: 12px;
+    transition: opacity 650ms cubic-bezier(0, 0, 0, 1);
+}
+
+.headline {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40.5px;
+    line-height: 8px;
+    margin-bottom: 31px;
+    margin-top: 20px;
+}
+
+.sub-headline{
+    font-family:'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    opacity: 0.7;
+}
+.country-select{
+    font-family: 'Rubik', sans-serif;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    height: 41px;
+    margin-top: 0px;
+    width: 78px;
+    margin-right: 6px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    background-color: white;
+}
+
+.phone-input{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    text-indent: 15px;
+    width: 204px;
+    height: 42px;
+}
+.phone-input:focus{
+    outline: 2px solid black;
+}
+
+.send-button{
+    background-color: #000;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    width: 135px;
+    height: 44px;
+    margin: 0 -3px;
+}
+.full-disclosure{
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 8px 0 16px 0;
+    opacity: 0.5;
+}
+
+.store.google {
+    width: 133px;
+    height: 40px;
+    background-image: url(img/google.svg);
+    position: relative;
+    right: 33px;
+    border-radius: 4px;
+    top: 2px;
+}
+.store.apple .action{
+    width: 8.4375em;
+    height: 2.5em;
+    background-image: url(img/appstore.svg);
+    background-repeat: no-repeat, repeat;
+    position: relative;
+    border-radius: 2px; 
+    margin-top: -8px;
+    margin-left: -12px;
+}
+.store.google .action{
+    width: 8.4375em;
+    height: 50px;
+    background-image: url(img/google.svg);
+    background-repeat: no-repeat, repeat;
+    position: relative;
+    border-radius: 2px;
+    margin-top: -14px;
+    margin-left: -8px;
+}
+.store.google::marker{
+    color: yellow;
+    background-color: white;
+}
+.store.apple::marker{
+    color: yellow;
+    background-color: white;
+}
+.action{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    top: 8px;
+    left: 7px;
+    overflow: hidden;
+    text-indent: -1000em;
+    display: inline-block;
+}
+
+@media (max-width: 1070px){
+    .action{
+        visibility: hidden;
+
+    }
+    .sub-headline{
+        visibility: hidden;
+        
+    }
+    .input-field{
+        visibility: hidden;
+    }
+    .full-disclosure{
+        visibility: hidden;
+    }
+    .stores{
+        visibility: hidden;
+    }
+
+    }
+    
