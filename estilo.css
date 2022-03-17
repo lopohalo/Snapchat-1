@@ -98,7 +98,8 @@
         color: #fff;
     }
     .row{
-        margin-top: 91px !important;
+        margin-top: 31px !important;
+        margin-right: -26px;
     }
 }
 
