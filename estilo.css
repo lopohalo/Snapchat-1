@@ -183,7 +183,7 @@
 .row{
     justify-content: center;
     align-items: center;
-    margin-top: 19px;
+    margin-top: 38px;
     height: 650px;
 }
 .row > * {
@@ -191,13 +191,12 @@
     padding-left: 0;
 }
 .video-cuadrante{
-    padding-right: 38px;
+    padding-right: 48px;
     justify-content: right;
 }
 
 .acompañante-cuadrante{
     padding-top: 60px;
-    padding-left: 5px;
 }
 
 .video {
@@ -347,19 +346,3 @@ option {
         visibility: hidden;
     }
     }
-
-.row1 {
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-    background-color: white;
-    height: 312px !important;
-}    
-
-.direccion-para-todos{
-    flex-direction: column !important;
-}
-
-.container-para-todos{
-    margin-top: 44px;
-}
